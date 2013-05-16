@@ -10,6 +10,10 @@ drop, 1
 play_dead, 1
 sing, 1
 
+CompileOptions:
+convexify: True
+fastslow: False
+
 CurrentConfigName:
 basicsim
 

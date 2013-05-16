@@ -10,8 +10,12 @@ drop, 1
 radio, 1
 extinguish, 0
 
+CompileOptions:
+convexify: True
+fastslow: False
+
 CurrentConfigName:
-Basic Simulation
+Test Simulation
 
 Customs: # List of custom propositions
 carrying_item

@@ -13,6 +13,10 @@ say_imfound, 1
 say_hider, 1
 say_seeker, 1
 
+CompileOptions:
+convexify: True
+fastslow: False
+
 CurrentConfigName:
 Basic simulation
 
@@ -32,14 +36,14 @@ hear_counting, 1
 ======== SPECIFICATION ========
 
 RegionMapping: # Mapping between region names and their decomposed counterparts
-Classroom1 = p12
-Classroom2 = p11
-Office = p7
-Closet = p10
-Gym = p8
-others = p13, p14, p15, p16, p17, p18, p19, p20, p21, p22, p23, p24, p25, p26
-Parking = p6
-between$Tree$and$Wall$ = p2
+Classroom1 = p13
+Classroom2 = p12
+Office = p8
+Closet = p11
+Gym = p9
+others = p1, p14, p15, p16, p17, p18, p19, p20, p21, p22, p23, p24, p25, p26
+Parking = p7
+between$Tree$and$Wall$ = p3
 
 Spec: # Specification in structured English
 ### Overview ###
